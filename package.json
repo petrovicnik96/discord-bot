@@ -7,5 +7,12 @@
   },
   "author": "Nikola Petrovic",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "discord.js": "^14.18.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.23.0",
+    "eslint": "^9.23.0"
+  }
 }
