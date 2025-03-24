@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "main": "index.ts",
   "scripts": {
-    "test": "npm test"
+    "start": "node index.ts",
+    "build": "node build",
+    "test": "node test",
+    "lint": "eslint . --ext .ts",
+    "dev": "tsx index.ts"
   },
   "author": "Nikola Petrovic",
   "license": "ISC",
@@ -12,7 +16,10 @@
     "discord.js": "^14.18.0"
   },
   "devDependencies": {
-    "@eslint/js": "^9.23.0",
-    "eslint": "^9.23.0"
+    "@types/node": "^22.13.13",
+    "eslint": "^9.23.0",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
   }
 }
